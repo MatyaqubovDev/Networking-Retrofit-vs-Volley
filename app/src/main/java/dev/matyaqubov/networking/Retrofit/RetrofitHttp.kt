@@ -1,8 +1,6 @@
 package dev.matyaqubov.networking.Retrofit
 
-import com.google.gson.Gson
 import dev.matyaqubov.networking.Retrofit.Service.PosterService
-import dev.matyaqubov.networking.VolleyHttp
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

@@ -5,6 +5,8 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import dev.matyaqubov.networking.Retrofit.PosterResp
 import dev.matyaqubov.networking.Retrofit.RetrofitHttp
+import dev.matyaqubov.networking.Volley.VolleyHandler
+import dev.matyaqubov.networking.Volley.VolleyHttp
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

@@ -1,7 +1,7 @@
 package dev.matyaqubov.networking
 
 import android.util.Log
-import dev.matyaqubov.networking.VolleyHttp.Companion.IS_TESTER
+import dev.matyaqubov.networking.Volley.VolleyHttp.Companion.IS_TESTER
 
 class Logger {
 companion object{

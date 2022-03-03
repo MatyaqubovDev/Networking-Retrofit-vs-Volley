@@ -1,4 +1,4 @@
-package dev.matyaqubov.networking
+package dev.matyaqubov.networking.Volley
 
 interface VolleyHandler {
 
