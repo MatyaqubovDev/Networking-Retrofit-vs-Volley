@@ -105,7 +105,7 @@ class MainActivity : AppCompatActivity() {
 
         })
     }
-
+//for retrofit
     fun workWithRetrofit(poster: Poster) {
         //posterList()
         //createPost(poster)
@@ -125,6 +125,7 @@ class MainActivity : AppCompatActivity() {
 
         })
     }
+
 
     fun updatePost(poster: Poster) {
         RetrofitHttp.posterService.updatePost(poster.id, poster)
