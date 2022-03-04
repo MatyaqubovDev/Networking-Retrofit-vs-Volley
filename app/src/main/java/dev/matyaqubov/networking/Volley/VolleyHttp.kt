@@ -11,9 +11,9 @@ import org.json.JSONObject
 class VolleyHttp {
     companion object {
         val TAG = VolleyHttp::class.java.simpleName
-        val IS_TESTER = true
+        val IS_TESTER = false //true bu test server false bu production server
         val SERVER_DEVELOPMENT = "https://jsonplaceholder.typicode.com/"
-        val SERVER_PRODUCTION = "https://jsonplaceholder.typicode.com/"
+        val SERVER_PRODUCTION = "https://62219fc9afd560ea69b5292a.mockapi.io/"
 
         fun server(url: String): String {
             if (IS_TESTER)
